@@ -403,19 +403,69 @@ All models showed consistent improvement across 10 epochs:
 
 ### Visual Results
 
-<details>
-<summary>Click to view result visualizations</summary>
+#### 📊 Model Performance Comparison
 
-#### Learning Curves
-![Learning Curves](results/all_learning_curves.png)
-
-#### Confusion Matrices
-![Confusion Matrices](results/all_confusion_matrices.png)
-
-#### Model Comparison
 ![Model Comparison](results/model_comparison.png)
 
+*Comprehensive comparison of accuracy, F1-score, model size, and inference time across all three architectures*
+
+---
+
+#### 📈 Learning Curves Analysis
+
+![All Learning Curves](results/all_learning_curves.png)
+
+*Training and validation progression for loss and accuracy across 10 epochs for ViT, DeiT, and MAE models*
+
+<details>
+<summary>Individual Model Learning Curves</summary>
+
+##### ViT Learning Curves
+![ViT Curves](results/learning_curves/vit_curves.png)
+
+##### DeiT Learning Curves
+![DeiT Curves](results/learning_curves/deit_curves.png)
+
+##### MAE Learning Curves
+![MAE Curves](results/learning_curves/mae_curves.png)
+
 </details>
+
+---
+
+#### 🎭 Confusion Matrices
+
+![All Confusion Matrices](results/all_confusion_matrices.png)
+
+*Side-by-side confusion matrices showing per-class prediction accuracy for all models*
+
+<details>
+<summary>Individual Model Confusion Matrices</summary>
+
+##### ViT Confusion Matrix
+![ViT CM](results/confusion_matrices/vit_cm.png)
+
+##### DeiT Confusion Matrix
+![DeiT CM](results/confusion_matrices/deit_cm.png)
+
+##### MAE Confusion Matrix
+![MAE CM](results/confusion_matrices/mae_cm.png)
+
+</details>
+
+---
+
+#### 📉 Dataset Insights
+
+##### Class Distribution
+![Class Distribution](results/class_distribution.png)
+
+*Distribution of training samples across 5 Indonesian food categories*
+
+##### Sample Training Batch
+![Sample Batch](results/sample_batch.png)
+
+*16 randomly selected training images with augmentation applied*
 
 ---
 
